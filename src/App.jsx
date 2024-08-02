@@ -1,4 +1,4 @@
-import { AppBar, Button, Container, Grid, Toolbar, Typography } from "@mui/material";
+import { Box, AppBar, Button, Container, Grid, Toolbar, Typography, ButtonGroup }  from "@mui/material";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 //? Crear funcion por defecto
@@ -8,7 +8,7 @@ export default function App(){
       <AppBar position="static">
         <Toolbar>
           <Typography color="secondary" textAlign={'center'} variant="h6" component="div" sx={{flexGrow: 1}}>
-            M1-Wrt
+            M1-Wrts
           </Typography>
           <Typography>
             <Button variant="outlined" color="secondary">Projects</Button>
@@ -20,17 +20,25 @@ export default function App(){
       <Grid container>
         <Grid item xs={12} sm={6}>
           <Typography variant="h2">Web Dev</Typography>
+          <Typography variant="h2">React</Typography>
+          <Typography variant="h2">Node</Typography>
+          <Typography variant="h2">MySql</Typography>
+          <Typography variant="h2">Material UI</Typography>
         </Grid>
         
         <Grid item xs={12} sm={6}>
-          
-        Lorem ipsum dolor sit amet consectetur adipiscing 
-          elit convallis lectus magna, fames pulvinar accumsan
-           arcu cum dapibus tincidunt dis dictumst, sapien fermentum
-            taciti neque aenean erat vivamus justo cras. Vestibulum 
-            viverra dictum rutrum blandit commodo nascetur tempus 
-            tincidunt gravida nam odio eleifend urna, lobortis risus 
-            posuere sollicitudin facilisi libero imperdiet feugiat
+        <Typography variant="h2">About Me.</Typography>
+        <Box sx={{border: 2, p: 2}}>
+
+        </Box>
+        <Typography variant="h2">Contact Us.</Typography>
+        <Box sx={{border: 2, p: 2}}>
+          <ButtonGroup textAlign="center" variant="contained" color="primary">
+            <Button>Discord</Button>
+            <Button>Instagram</Button>
+            <Button>Github</Button>
+          </ButtonGroup>
+        </Box>
         </Grid>
       </Grid>
 
