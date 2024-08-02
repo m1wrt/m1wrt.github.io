@@ -8,7 +8,7 @@ export default function App(){
       <AppBar position="static">
         <Toolbar>
           <Typography color="secondary" textAlign={'center'} variant="h6" component="div" sx={{flexGrow: 1}}>
-            M1-Wrts
+            M1-Wrt
           </Typography>
           <Typography>
             <Button variant="outlined" color="secondary">Projects</Button>
