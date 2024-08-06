@@ -30,7 +30,6 @@ export default function App(){
         <Typography variant="h2">About Me.</Typography>
         <Box sx={{border: 2, p: 2}}>
         <Typography>Hola</Typography>
-        <Typographi>Chao</Typographi>
         </Box>
         <Typography variant="h2">Contact Us.</Typography>
         <Box sx={{border: 2, p: 2}}>
