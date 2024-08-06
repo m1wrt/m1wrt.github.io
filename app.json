@@ -1,0 +1,15 @@
+{
+    "expo": {
+    "name": "Your App Name",
+    "icon": "/home/user/m1wrt.github.io/src/assets/react.svg",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
+    "sdkVersion": "17.0.0",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
+  }
+  } 

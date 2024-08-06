@@ -29,7 +29,8 @@ export default function App(){
         <Grid item xs={12} sm={6}>
         <Typography variant="h2">About Me.</Typography>
         <Box sx={{border: 2, p: 2}}>
-
+        <Typography>Hola</Typography>
+        <Typographi>Chao</Typographi>
         </Box>
         <Typography variant="h2">Contact Us.</Typography>
         <Box sx={{border: 2, p: 2}}>
