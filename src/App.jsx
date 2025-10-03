@@ -18,28 +18,29 @@ function email(){
 const App = () => {
   return (
     <center>
-    <Typography level="h1" padding={4} variant='plain'>Sobre mi.</Typography>
-      <Card sx={{ width: 300, height: 630 }}>
+    <Typography level="h1" padding={4} variant='plain'>Hola chiquis</Typography>
+      <Card sx={{ width: 300, height: 450 }}>
         <CardCover></CardCover>
         <CardContent>
           <Box sx={{ flexGrow: 0 }}>
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                  <Avatar src='https://avatars.githubusercontent.com/u/177260077?s=48&v=4'/>
-                  <Typography variant="body2">m1wrt</Typography>
+                  <Avatar>M</Avatar>
+                  <Typography variant="body2" marginX={1} fontWeight={900}>Mikel</Typography>
                 </Box>
               </Grid>
             </Grid>
           </Box>
 
-          <Typography color="neutral" variant="soft" level='h1' textAlign={'left'}>
-            Tan solo un simple desarrollador web
+          <Typography color="neutral" variant="soft" level='h1' textAlign={'left'} marginTop={1}>
+            Simplemente yo.
           </Typography>
-          <Typography color="warning" variant="soft" level='h1' marginTop={2} marginBottom={2}>Mis Proyectos:</Typography>
+          {/*
+          <Typography color="warning" variant="soft" level='h1' marginTop={2} marginBottom={2}>Mis Proyectos:
           <Card sx={{ overflow: 'hidden' }}>
             <CardCover>
-              <img src='https://camo.githubusercontent.com/1435def35aca85e8cb328d6b11f79e4f70399ff8987a51cd424d513301243b21/68747470733a2f2f692e696d6775722e636f6d2f333070627267332e706e67' style={{ filter: 'blur(15px)' }}/>
+              <img src='https://media.tenor.com/XOKm8hiDW3UAAAAM/catshakira-cat.gif' style={{ filter: 'blur(15px)' }}/>
             </CardCover>
             <CardContent>
               <Box sx={{ width: 200, height: 120 }}>
@@ -50,20 +51,25 @@ const App = () => {
                 </Box>  
                 </Grid>
               </Box>
+              
               <Typography textAlign={'justify'} level='h4' marginTop={-10}>Consulta el precio del dolar a bolivares en distintas tasas</Typography>
               <Button onClick={cambioflex_redirect}
                 color="neutral"
                 size="md" 
               >Visitar Sitio</Button>
             </CardContent>
-          </Card>
+          </Card></Typography>
           <Typography level='h1' color="success" variant="soft" marginTop={2} marginBottom={2}>Contactame</Typography>
+          */}
           <Card>
+          <img src='https://media.tenor.com/XOKm8hiDW3UAAAAM/catshakira-cat.gif' style={{ filter: 'blur(0px)' }}/>
+          <Typography>No sé q poner en la pagina web ok?</Typography>
             <CardContent>
-              <ButtonGroup>
+              {/*<ButtonGroup>
                   <Button onClick={github_redirect}>Github</Button>
                   <Button onClick={email}>Correo Electronico</Button>
-              </ButtonGroup>
+              </ButtonGroup>*/}
+              
             </CardContent>
           </Card>
           </CardContent>
